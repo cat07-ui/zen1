@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login + Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGIN BOX -->
+  <div id="loginBox" class="box">
+    <h2>LOVE WORLD</h2>
+    <input type="text" id="username" placeholder="USERNAME:" required><br>
+    <input type="password" id="password" placeholder="PASSWORD NEED:" required><br>
+    <button onclick="login()">CLICK HERE🤍 </button>
+    <p id="message"></p>
+  </div>
+
+  <!-- GALLERY BOX (HIDDEN UNTIL LOGIN) -->
+  <div id="galleryBox" class="box hidden" style="width:90%; max-width:900px;">
+    <h1>Welcome to the Gallery 🎨</h1>
+    
+
+    <div class="gallery">
+      <img src="love1.jpg">
+      <img src="love2.jpg">
+      <img src="love3.jpg">
+      <img src="love4.jpg">
+      <img src="love5.jpg">
+ <img src="love6.jpg">
+ <img src="love7.jpg">
+    </div>
+<p>Here the few picture with you by edited, i do know how long it will take for us to have a real photos together but i am still waiting for the days.Please trust me i will never leave you at any situation and don't get overthink about it, thankyou for all and sorry for something,i will make sure to remember and not forget hereafter and love you more , click the button of logout dont leave the page without kickme /logout😍😍😍...</p>
+    <br>
+    <button onclick="logout()">Kickme / Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
